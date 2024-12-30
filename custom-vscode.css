@@ -1,0 +1,174 @@
+div[role="tablist"] {
+  align-items: center;
+  padding: 0 8px 8px;
+  border: 0 !important;
+  background: #F8F8F8;
+}
+
+
+div[role="tablist"] > .tab {
+  overflow: hidden;
+  border-radius: 8px;
+  outline: none !important;
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 10px 0 8px !important;
+  font-weight: 600;
+  color: #000 !important;
+  opacity: 0.5;
+}
+
+div[role="tablist"] > .tab .tab-actions {
+  display: none !important;
+}
+
+div[role="tablist"] > .tab:not(.selected):hover {
+  background-color: transparent !important;
+}
+
+div[role="tablist"] > .tab.selected {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  border: 0 !important;
+  --tab-border-top-color: transparent !important;
+  --tab-border-bottom-color: transparent !important;
+}
+
+.monaco-editor .margin {
+  background-color: #F8F8F8 !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container {
+  --tabs-border-bottom-color: transparent !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container.tabs-border-bottom:after {
+  display: none !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab:not(.selected):hover {
+  background-color: transparent !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div:first-child {
+  display: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .split-view-view:not(:first-child) {
+  display: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-header {
+  display: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-header:focus {
+  outline: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-header .twisty-container {
+  display: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-header .actions {
+  display: none !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-body {
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  margin: 0 1px 0 16px;
+  left: -1px;
+  position: relative;
+  background: #F2F2F2 !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-body .monaco-list .monaco-list-rows {
+  background: #F2F2F2 !important;
+}
+
+.monaco-workbench .part.sidebar > div > div > div.sidebar2-compositeComponent > div .pane-body .monaco-list .monaco-scrollable-element {
+  padding: 8px 0 !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box {
+  background: #F2F2F2 !important;
+  border-color: #D9D9D9 !important;
+  color: #000 !important;
+}
+
+.monaco-workbench .part.auxiliarybar .composite.title .title-label {
+  padding: 0;
+  font-weight: 600;
+}
+
+.monaco-workbench .part.auxiliarybar .composite.title .title-label h2 {
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.monaco-workbench .part.auxiliarybar .pane-body > div > div > div {
+  margin: 8 !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box .composer-bar-button.codebase-button {
+  background: #000 !important;
+  color: #FFF !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box .composer-bar-button.codebase-button span {
+  background: #000 !important;
+  color: #FFF !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box span,
+.monaco-workbench .part.auxiliarybar .full-input-box .composer-bar-button {
+  color: #000 !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box .premium-pill,
+.monaco-workbench .part.auxiliarybar .full-input-box .context-pill {
+  background: #000 !important;
+  border: 0 !important;
+  color: #FFF !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box .premium-pill span,
+.monaco-workbench .part.auxiliarybar .full-input-box .premium-pill div,
+.monaco-workbench .part.auxiliarybar .full-input-box .context-pill span,
+.monaco-workbench .part.auxiliarybar .full-input-box .context-pill div {
+  color: #FFF !important;
+  font-size: 10px !important;
+}
+
+.monaco-workbench .part.auxiliarybar .full-input-box .premium-pill .monaco-icon-label,
+.monaco-workbench .part.auxiliarybar .full-input-box .context-pill .monaco-icon-label {
+  filter: brightness(0) invert(1);
+}
+
+
+.monaco-editor .scroll-decoration {
+  display: none !important;
+}
+
+.line-numbers {
+  color: #909091 !important;
+  text-align: left !important;
+}
+
+.shadow {
+  display: none !important;
+}
+
+.monaco-sash.active:before, .monaco-sash.hover:before {
+  background-color: transparent !important;
+}
+
+.window-title {
+  display: none !important;
+}
+
+.titlebar {
+  background: #F8F8F8 !important;
+  border: 0 !important;
+}
